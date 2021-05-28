@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modal.css">
+
+    <script src="https://kit.fontawesome.com/0fc75fc6b4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <table id="tabela">
+    <tr>
+        <td class="ajuste"><i class="fas fa-plus" id="myBtn"></i></td>
+        <td class="ajuste">Nome do Produto</td>
+    </tr>
+    </table>
+
+        <!-- The Modal -->
+        
+        <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close" >&times;</span>
+            <script src="scripts/post.js"></script>
+                <form onsubmit="CadastrarProduto()">
+                
+                    <label for="produto">Produto:</label>
+                    <input name="produto" id="produto" type="text">
+                    <br><br>
+                    <button type="submit" >Salvar</button>
+                </form>
+                
+        </div>
+
+        </div>
+
+
+       
+        
+        
+
+        
+
+    
+    <script src="scripts/main.js"></script>
+    <script src="scripts/modal.js"></script>
+</body>
+</html>
